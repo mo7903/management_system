@@ -3,7 +3,6 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
  */
 package management_system;
-
 import java.util.Scanner;
 
 /**
@@ -74,10 +73,6 @@ public class Management_system {
         else {
             System.out.println("Invalid Choice");
         }
-    }
-
-    public static void deleteUser(Scanner k) {
-
     }
     
     public static void displayUsers(Scanner k) {
@@ -163,7 +158,7 @@ public class Management_system {
     }
     
     public static void updateStudent(Scanner k){
-        if(Student.UniversityStudents.size() > 0){
+        if (!Student.UniversityStudents.isEmpty()){
             String id;
             boolean f;
             int c;
@@ -255,7 +250,7 @@ public class Management_system {
     }
     
     public static void updateProfessor(Scanner k){
-        if(Professor.UniversityProfessors.size() > 0){
+        if(!Professor.UniversityProfessors.isEmpty()){
             String id;
             boolean f;
             int c;
@@ -334,6 +329,60 @@ public class Management_system {
         }
     }
 
+    public static void deleteUser(Scanner k) {
+        int i = getUserType(k);
+        if (i == 1) {
+            deleteStudent(k);
+        } else if (i == 2) {
+            deleteProfessor(k);
+        }
+        else {
+            System.out.println("Invalid Choice");
+        }
+    }
+
+    public static void deleteStudent(Scanner k) {
+        if(!Student.UniversityStudents.isEmpty()) {
+            String id;
+            boolean f;
+            while (true) {
+                System.out.print("Enter Student ID (or -1 to go back): ");
+                f = false;
+                id = k.next();
+                if (!id.equals("-1")) {
+                    for (int i = 0; i < Student.UniversityStudents.size(); i++) {
+                        if (Student.UniversityStudents.get(i).id.equals(id)) {
+                            Student.UniversityStudents.remove(i);
+                            f = true;
+                            break;
+                        }
+                    }
+                    if (!f) System.out.println("ID not found");
+                } else break;
+            }
+        }
+    }
+    public static void deleteProfessor(Scanner k) {
+        if(!Professor.UniversityProfessors.isEmpty()) {
+            String id;
+            boolean f;
+            while (true) {
+                System.out.print("Enter Professor ID (or -1 to go back): ");
+                f = false;
+                id = k.next();
+                if (!id.equals("-1")) {
+                    for (int i = 0; i < Professor.UniversityProfessors.size(); i++) {
+                        if (Professor.UniversityProfessors.get(i).id.equals(id)) {
+                            Professor.UniversityProfessors.remove(i);
+                            f = true;
+                            break;
+                        }
+                    }
+                    if (!f) System.out.println("ID not found");
+                } else break;
+            }
+        }
+    }
     public static void main(String[] args) {
         Scanner k = new Scanner(System.in);
         while (true) {

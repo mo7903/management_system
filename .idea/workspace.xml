@@ -7,7 +7,10 @@
     <list default="true" id="1b20249a-cab0-49ab-9212-b5c227bfc8fe" name="Changes" comment="&quot;Proposed CLI Interface Logic &amp; Add User Method&quot;">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/management_system/src/management_system/Management_system.java" beforeDir="false" afterPath="$PROJECT_DIR$/management_system/src/management_system/Management_system.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/management_system/src/management_system/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/management_system/src/management_system/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/management_system/management_system/Course.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/management_system/management_system/Course.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/management_system/management_system/Management_system.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/management_system/management_system/Management_system.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/management_system/management_system/Professor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/management_system/management_system/Professor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/management_system/management_system/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/management_system/management_system/Student.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,7 +27,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="add_del" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -72,8 +75,9 @@
     "Application.Professor.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "CLI__add__del",
+    "git-widget-placeholder": "delete__user",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/mohamedgomaa/IdeaProjects/management_system",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -130,6 +134,7 @@
       <workItem from="1703616150639" duration="11000" />
       <workItem from="1703654252924" duration="634000" />
       <workItem from="1703657465096" duration="2868000" />
+      <workItem from="1703697824577" duration="2450000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;Added User Interface and Professor Class with a mini-test in main&quot;">
       <option name="closed" value="true" />
