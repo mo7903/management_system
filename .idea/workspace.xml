@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1b20249a-cab0-49ab-9212-b5c227bfc8fe" name="Changes" comment="&quot;Added User Interface and Professor Class with a mini-test in main&quot;" />
+    <list default="true" id="1b20249a-cab0-49ab-9212-b5c227bfc8fe" name="Changes" comment="&quot;Added User Interface and Professor Class with a mini-test in main&quot;">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/management_system/src/management_system/Management_system.java" beforeDir="false" afterPath="$PROJECT_DIR$/management_system/src/management_system/Management_system.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -67,13 +72,14 @@
     "Application.Professor.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "CLI__add__del",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.editor",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -109,6 +115,7 @@
       <workItem from="1703572439231" duration="3371000" />
       <workItem from="1703616150639" duration="11000" />
       <workItem from="1703654252924" duration="634000" />
+      <workItem from="1703657465096" duration="903000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;Added User Interface and Professor Class with a mini-test in main&quot;">
       <option name="closed" value="true" />
