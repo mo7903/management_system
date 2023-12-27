@@ -3,7 +3,7 @@ package management_system;
 import java.util.ArrayList;
 
 public class Professor extends User {
-    private static ArrayList<Professor> UniversityProfessors = new ArrayList<Professor>();
+    public static ArrayList<Professor> UniversityProfessors = new ArrayList<Professor>();
     
     String dept;
     // Later, will be adjusted to a list of Course Objects
@@ -36,7 +36,7 @@ public class Professor extends User {
 
     public void dropCourse(Course course) {
         this.currentCourses.remove(course);
-        course.getProfessors().remove(this);
+        course.removeProfessor(this);
     }
 
     public void clearCourses() {
@@ -53,10 +53,10 @@ public class Professor extends User {
     @Override
     public String toString() {
         return "Professor {" +
-                "name = '" + name + '\'' +
-                ", id = '" + id + '\'' +
-                ", dept = '" + dept + '\'' +
-                ", current_courses = " + currentCourses +
+                "\nname = '" + name + '\'' +
+                ", \nid = '" + id + '\'' +
+                ", \ndept = '" + dept + '\'' +
+                ", \ncurrent_courses = " + currentCourses +
                 '}';
     }
     
