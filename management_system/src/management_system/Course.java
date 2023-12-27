@@ -58,6 +58,14 @@ public class Course {
        professors.add(s);
     }
     
+    public void removeStudent(Student s){
+       students.remove(s);
+    }
+    
+    public void removeProfessor(Professor s){
+       professors.remove(s);
+    }
+    
     public void addTA(User s){
        tAs.add(s);
     }
