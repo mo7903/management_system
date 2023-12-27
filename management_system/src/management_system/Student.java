@@ -17,7 +17,7 @@ public class Student extends User{
     protected String CGPA;
     protected ArrayList<String> currentCourses = new ArrayList<String>();
 
-    public Student(String faculty, String dept, String CGPA, String name, String id) {
+    public Student(String name, String id, String dept, String faculty, String CGPA) {
         super(name, id);
         this.faculty = faculty;
         this.dept = dept;
