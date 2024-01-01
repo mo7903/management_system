@@ -66,7 +66,7 @@ public class Student extends User{
         currentCourses.remove(c);
         c.removeStudent(this);
     }
-
+    
     @Override
     public String toString() {
         return "Student{\nName=" + name + "\nfaculty=" + faculty + ", \ndept=" + dept + ", \nCGPA=" + CGPA + ", \ncurrentCourses=" + currentCourses + "\n}";
