@@ -14,7 +14,6 @@ public class Course {
     private String name, id;
     private ArrayList<Student> students = new ArrayList<Student>();
     private ArrayList<Professor> professors = new ArrayList<Professor>();
-    private ArrayList<User> tAs = new ArrayList<User>();
     
     public Course(String name, String id) {
         this.name = name;
@@ -45,11 +44,6 @@ public class Course {
         return professors;
     }
 
-
-    public ArrayList<User> gettAs() {
-        return tAs;
-    }
-
     public void addStudent(Student s){
        students.add(s);
     }
@@ -64,10 +58,6 @@ public class Course {
     
     public void removeProfessor(Professor s){
        professors.remove(s);
-    }
-    
-    public void addTA(User s){
-       tAs.add(s);
     }
     
     public void displayCourseInfo(){
